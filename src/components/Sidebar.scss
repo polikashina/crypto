@@ -1,0 +1,36 @@
+@import "../styles/variables.scss";
+
+.sidebar {
+  display: flex;
+  flex: 0 1 250px;
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 200px;
+  }
+
+  &__row {
+    display: flex;
+  }
+
+  &__currency {
+    flex: 0 0 50px;
+    margin-right: 10px;
+  }
+
+  &__rate {
+    flex: 0 0 70px;
+    margin-right: 10px;
+  }
+
+  &__delta {
+    &-up {
+      color: $success-color;
+    }
+
+    &-down {
+      color: $error-color;
+    }
+  }
+}

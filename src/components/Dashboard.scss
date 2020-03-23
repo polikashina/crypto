@@ -1,0 +1,10 @@
+.dashboard {
+  display: flex;
+  justify-content: space-between;
+  width: 800px;
+  margin: auto;
+
+  &__loader {
+    margin: 0 auto;
+  }
+}

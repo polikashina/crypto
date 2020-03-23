@@ -1,0 +1,18 @@
+.converter {
+  display: flex;
+  width: 450px;
+  justify-content: space-between;
+
+  &__column {
+    display: flex;
+    flex-direction: column;
+
+    .converter__control {
+      margin-bottom: 10px;
+    }
+  }
+
+  &__control {
+    width: 200px;
+  }
+}
